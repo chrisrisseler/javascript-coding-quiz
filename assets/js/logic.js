@@ -105,7 +105,7 @@ function quizEnd() {
   // show end screen
   endScreen.style.display = "block";
   // show final score
-
+  finalScore.textContent = score
   // hide questions section
   questionsEl.setAttribute("class", "hide");
 }
