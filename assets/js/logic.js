@@ -51,24 +51,13 @@ function getQuestion() {
     questionButton.textContent = currentQuestion.choices[i]
     questionButton.setAttribute("onclick", "questionClick(event)")
 
-
-    // choice = currentQuestion.choices[i].value
-
-    // console.log(choice)
-
-    // attach click event listener to each choice
-    // questionButton.addEventListener("click", function () {
-
-    //   questionClick()
-    // })
-    // display on the 
     choicesEl.appendChild(questionButton)
 
   });
 }
 
 
-// this.value !== questions[currentQuestionIndex].answer
+
 
 function questionClick(event) {
   // check if user guessed wrong
@@ -112,9 +101,9 @@ function questionClick(event) {
 
 function quizEnd() {
   // stop timer
-  clearInterval(timerId)
+  clearInterval(timerId);
   // show end screen
-  endScreen.style.display = "block"
+  endScreen.style.display = "block";
   // show final score
 
   // hide questions section
