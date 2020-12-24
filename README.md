@@ -2,10 +2,13 @@
 
 
 ![GitHub follow](https://img.shields.io/github/followers/chrisrisseler?label=Follow&style=social)
-![GitHub commits](https://img.shields.io/github/commit-activity/w/chrisrisseler/coding-quiz?style=social)
+![GitHub commits](https://img.shields.io/github/commit-activity/w/chrisrisseler/javascript-coding-quiz?style=social)
 
 
 The coding quiz is a short quiz to test your knowledge about the basics of coding. This covers HTML, CSS, and Javascript basics. Not too much knowledge is needed to pass this quiz. 
+
+<a href = 
+"https://chrisrisseler.github.io/javascript-coding-quiz/">Here is a link to the quiz</a>
 
 
 
